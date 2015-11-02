@@ -1,17 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat|Crimson+Text);
 * {
   box-sizing: border-box;
-  line-height: 1.4em;
 }
 
 *:after {
   box-sizing: border-box;
-  content: '';
 }
 
 *:before {
   box-sizing: border-box;
-  content: '';
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -22,8 +19,7 @@ html {
   font-size: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 1.2em;
   text-rendering: optimizelegibility;
   -webkit-tap-highlight-color: transparent;
   -webkit-backface-visibility: hidden;
@@ -33,7 +29,7 @@ body {
   color: rgba(0, 0, 0, 0.75);
   background: #F1F1E4;
   margin: 0;
-  font: 18px/20px "Crimson Text", serif;
+  font-family: "Crimson Text", serif;
   font-smooth: always;
   -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: optimizelegibility;
@@ -54,6 +50,7 @@ a:focus, a:active, a:hover {
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  line-height:1em;
 }
 
 h1 {
@@ -98,7 +95,7 @@ hr {
 }
 
 p {
-  margin: .8em 0;
+  margin: 1em 0;
 }
 
 menu, ul, ol {
@@ -331,29 +328,20 @@ main {
   margin-top: 190px;
 }
 
-section {
-  padding: 100px 0px;
-  position: relative;
-  text-align: center;
-}
 
 h1.pitch {
-  font-size: 8em;
+  font-size: 500%;
 }
 
-section h2 {
-  font-size: 3em;
-  margin-bottom: 20px;
-}
-
-section p {
-  font-size: 1.45em;
+.wrapper{
+  min-height:40vh;
+  padding:3em 0;
 }
 
 /* ----- Buttons ------*/
 .tryIt {
   width: 250px;
-  margin: 20px auto;
+  margin: 20vh auto;
   background: #DC3535;
   border-radius: 5px;
   cursor: pointer;
@@ -402,7 +390,7 @@ section p {
     display: none;
   }
   body .divide-in-half {
-    width: 50vw;
+    width: 55vw;
   }
   body .one-half {
     width: 50%;
@@ -477,24 +465,24 @@ section p {
 
 /* -- Push aside, out & away ---*/
 .side-gap {
-  margin-right: .5em;
-  margin-left: .5em;
+  margin-right: .5vh;
+  margin-left: .5vh;
 }
 
 .top-gap {
-  margin-top: .5em;
+  margin-top: .5vh;
 }
 
 .double-top-gap {
-  margin-top: 1em;
+  margin-top: 1vh;
 }
 
 .bottom-gap {
-  margin-bottom: 1em;
+  margin-bottom: 1vh;
 }
 
 .double-bottom-gap {
-  margin-bottom: 2em;
+  margin-bottom: 2vh;
 }
 
 .pad {
