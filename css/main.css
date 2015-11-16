@@ -228,8 +228,6 @@ header .navPic, .menu {
 
 }
 
-
-
 @keyframes rgb {
   10% {
     background-color: #EE6B02;
@@ -361,7 +359,6 @@ h1.pitch {
 .tryIt {
   width: 250px;
   margin: 20vh auto;
-  background: #DC3535;
   border-radius: 5px;
   cursor: pointer;
   color: white;
@@ -374,6 +371,14 @@ h1.pitch {
 
 .tryIt:hover {
   box-shadow: -5px 5px 0 #39393B;
+}
+
+.red{
+  background: #DC3535;
+}
+
+.light-gray{
+  background: #777;
 }
 
 /* ----- Uncomplicated single-point media query break, again courtesy: toucaan.css ------*/
