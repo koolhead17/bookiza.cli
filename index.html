@@ -69,6 +69,15 @@
           header.classList.remove("nav");
         }
       }       
+    
+      // Playing with serviceworker.js
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('/serviceworker.js', {
+          scope: '/'
+        });
+      }
     </script>
+
+
   </body>
 </html>
