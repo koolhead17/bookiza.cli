@@ -16,6 +16,7 @@ if (isFirefox) {
   };   
 } else if (isIE) {
   window.onscroll = function() {
+    console.log('yeah');
     if (window.pagYOffset > 80 && !header.classList.contains("nav")) {
       header.classList.add("nav");
     } else if (window.pagYOffset <= 80) {
