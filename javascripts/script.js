@@ -4,7 +4,6 @@ var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Const
 var isChrome = !!window.chrome && !isOpera;
 var isIE = /*@cc_on!@*/false || !!document.documentMode; 
 
-
 var header = document.getElementsByTagName("header")[0];
 
 if (isFirefox) {
@@ -17,9 +16,9 @@ if (isFirefox) {
   };   
 } else if (isIE) {
   window.onscroll = function() {
-    if (document.body.scrollTop > 80 && !header.classList.contains("nav")) {
+    if (document.body.parentNode > 80 && !header.classList.contains("nav")) {
       header.classList.add("nav");
-    } else if (document.body.scrollTop <= 80) {
+    } else if (document.body.parentNode <= 80) {
       header.classList.remove("nav");
     }
   };   
