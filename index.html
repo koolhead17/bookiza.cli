@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Bookiza - The Book Baking Tool | API Reference</title>
     <link rel="icon" href="./images/favicon.png">
-
     <link href="./css/main.css" rel="stylesheet" type="text/css"/>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -18,6 +16,11 @@
         <img src="./images/logo.png" class="navPic" />
       </a>
     </header>
+    <div class="right trap ribbon-wrap">
+      <div class="trap-ribbon">
+        <a href="https://github.com/bookiza/bookiza"><i class="fa fa-github-alt"> </i> Star on Github</a>
+      </div>
+    </div>
     
 
     <main class="container">
@@ -26,47 +29,119 @@
         <h1 class="pitch"> bookiza </h1>
         <hr/>
         <h2 class="punchline">Responsive, beautiful books. </h2>
-        <p>All the goodness of the web that you've ever wanted. Publish once and it is <a href="https://bubbl.in/support">everywhere</a>.</p>
+        <p>All the goodness of the web that you've ever wanted. Publish once and it's available <a href="https://bubbl.in/support">everywhere</a>!</p>
         <div class="pad-vertically">
           <a class="tryIt red montserrat" href="https://bubbl.in/books">See demos</a>
           <a class="tryIt light-gray montserrat" href="https://bookiza.github.io/docs/">Documentation</a>
-
         </div>
       </div>
       
+
+<!---
+      <div class="gray wrapper white-text center">
+        <div class="divide-in-half center">
+          <h2>  Installation </h2>
+          
+          <span class="one-half"> Cut your book writing timing by half</span>
+          <span class="one-half"> Publish comics, magazines or books on your own</span>
+
+          <p>[ Bookiza + Nodejs + Imagination = Magician ] </p>
+          
+          <div class="terminal">
+            <p>$ npm install bookiza -g</p>
+            <p>$ bookiza new MY-AWESOME-BOOK 24</p>
+            <p> $ <span class="prompt">_</span></p>
+          </div>
+          <p> Open the project in your favorite editor, click away! </p>
+          <div class="terminal">
+            <p>$ bookiza server</p>
+            <p>$ bookiza publish</p>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="wrapper center ">
+        <div class="divide-in-half center">
+          <h1> ☀ Some thoughts ... </h1>
+          <div class="one-half center">
+            <ul>
+              <li>
+                <p class="bubble thought">"The future of books", Paul Singh, 500 Startups.</p>
+                <p class="bubble thought">One of the most beautiful implementations of a "book in browser" I've ever seen, Craig Mod. </p>
+                <p class="bubble speech"></p> 
+  
+                 
+              </li>
+              <li>
+                "Let books have some sunshine. It can't be simpler than this!"
+              </li>
+              <li>
+                
+              </li>
+              <li>
+                Gorgeous! You should probably sell those! - David Mack, YCombinator
+              </li>
+              <li>
+                A beautiful 'storybook' reading experience. Tiffany Rayside
+              </li>
+              <li> 
+                woah! Beautiful!! Una Kravets
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
 
 
       <div class="gray wrapper white-text center">
-        <h1>Coming soon...</h1>
-        <p>
-          <i class="fa fa-twitter"></i>
-          <a href="https://twitter.com/bookiza"> @bookiza </a>
-        </p>
+        <div class="divide-in-half center">
+          <h2>Zero calories</h2>
+          <p> Bookiza has only minimum set of features to boast. Less code, lesser footprint. It's just a simple wrapper to put together a bunch of pages (webpages, yes) for a linear read form.</p>
+          <div class="one-half center">
+            <ol class="justify">
+              <li> Supported universally. Host on <a href="https://bubbl.in">Bubblin</a> or on your own. </li>
+              <li> Supported universally </li>
+              <li> Supported universally </li>
+              <li> Supported universally </li>
+              <li> Supported universally </li>
+              <li> Supported universally </li>
+              <li> Supported universally </li>
+              <li> Supported universally </li>
+              <li> Supported universally </li>
+              <li> Supported universally </li>
 
-      </div>
-
-      
-      <div class="right trap ribbon-wrap">
-        <div class="trap-ribbon">
-          <a href="https://github.com/bookiza/bookiza"><i class="fa fa-github-alt"> </i> Star on Github</a>
+            </ol>
+          </div>
+          <div class="clearfix"> </div>
+          <p>
+             Full-bleed context, interactive visual explanations, great typography with @font-faces, immersive 3D (WebGL), audio, video, animations and what not simply by using building blocks of web — i.e. HTML, CSS, JavaScript and pretty much anything that travels over the wire."        
+          </p>
         </div>
       </div>
+      -->
     </main>
-    <footer> 
+    <footer class="legend center "> 
       
+      <ul class="horizontal-list center flex">
+
+        <li>
+          <a href="https://twitter.com/bookiza"> <i class="fa fa-twitter"></i> Twitter </a>
+        </li>
+        <li>
+          <a href="https://github.com/bookiza/bookiza"> <i class="fa fa-github"></i> Github </a>
+        </li>
+        <li>
+          <a href="https://bubbl.in/tools" class="flex"> <img class="side-gap" src="https://bubbl.in/favicon.png"/> Bubblin </a>
+        </li>
+      </ul>
+      <p>© +2015 All rights reserved. Bubblin Superbooks Inc., Washington D.C.</p>      
     </footer>
 
-    <script type="text/javascript">
-      var header = document.getElementsByTagName("header")[0];
-
-      // Change header into a nav
-      window.onscroll = function() {
-        if (document.body.scrollTop > 80 && !header.classList.contains("nav")) {
-          header.classList.add("nav");
-        } else if (document.body.scrollTop <= 80) {
-          header.classList.remove("nav");
-        }
-      }       
-    </script>
+    <script type="text/javascript" src="./javascripts/script.js"></script>
   </body>
 </html>
