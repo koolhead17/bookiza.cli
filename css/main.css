@@ -206,7 +206,7 @@ header .navPic {
 }
 
 .nav {
-  height: 54px;
+  height: 64px;
 }
 
 .nav .headerPic {
@@ -217,9 +217,9 @@ header .navPic {
 
 .nav .navPic {
   display: block;
-  height:76px;
+  height:81px;
   border-radius: 50%;
-  width:76px;
+  width:81px;
   border: #F1F1E4 solid 3px;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -369,7 +369,6 @@ h1.pitch {
   padding: 15px 30px;
   transition: all 0.3s;
   font-weight: 700;
-  -webkit-transform: translateZ(1px);
 }
 
 .tryIt:hover {
