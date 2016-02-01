@@ -38,27 +38,49 @@
 
 <!--
       <div class="gray wrapper white-text center">
+
         <div class="divide-in-half center">
+
+          <p class="justify"> Prerequisites: <span class="monospace"> [ node + git-scm + terminal ] </span></p>
+          
           <p class="justify"> To install:</p>
 
           <div class="terminal">
             <p>$ npm install bookiza -g</p>
           </div>
-          <p class="justify"> To start a new book <span class="monospace"> AWESOME-BOOK </span>, with say 24 pages:</p>
+          <p class="justify"> Check installation with:</p>
           <div class="terminal">
-            <p>$ bookiza new AWESOME-BOOK 24</p>
+            <p>$ bookiza --version</p>
           </div>
-          <p class="justify"> Then <span class="monospace">cd</span> into the project directory:</p>
+
+          <p class="justify"> Register client with:</p>
+          <div class="terminal">
+            <p>$ bookiza register</p>
+          </div>
+          <p class="justify"> It will ask for your <a href="https://bubbl.in">bubblin credentials</a> and connect bookiza to its sweet POST API. You're all set … &#128519;</p>
+          <hr/>
+          <p class="justify"> To start a new book <span class="monospace"> My-Awesome-Book-Name </span>, with say 24 pages:</p>
+          <div class="terminal">
+            <p>$ bookiza new My-Awesome-Book-Name -l 12</p>
+          </div>
+          <p class="justify"> It will create a new project with 12 fresh leafs (24 pages) inside <span class="monospace">manuscript</span> folder.</p>
+          <p class="justify"> <span class="monospace">cd</span> into <span class="monospace"> My-Awesome-Book-Name </span>, and:</p>
           <div class="terminal">
             <p>$ bookiza server</p>
           </div>
-
-          <p class="justify"> Open the project in your favorite editor, write like no one's watching! Once you're ready, </p>
+          <p class="justify"> It will &#128293; up your manuscript at <span class="monospace"> http://localhost:4567 </span> and watch for changes! </p>
+          <hr/>
+          <p class="justify"> Open project on your favorite editor (Sublime / Atom), write your story away! </p> 
+          <p class="justify"> Once the book is ready, hit: </p>
           <div class="terminal">
             <p>$ bookiza publish</p>
           </div>
 
-          <p>[ Bookiza + Nodejs + Imagination = Magician ] </p>
+          <p>[ Boom! ] </p>
+          <p class="justify"> Full <a href="https://bookiza.github.io/docs/">documentation</a> and help is available: </p>
+          <div class="terminal">
+            <p>$ bookiza --help</p>
+          </div>
 
         </div>
       </div>
@@ -97,6 +119,11 @@
       <div class="gray wrapper white-text center flex">
         <div class="divide-in-half center">
           <h1 class="great-vibes"> Wait what? </h1>
+          <p class="justify double-bottom-gap"> 
+            Bookiza is a book baking tool that will cut down your book writing time by half. Half, no less. Integrate deeply into your existing development toolchain, mixin flavors to suit your writing style - Markdown, Jade, SASS or Typescript -, manage your manuscript easily in modular page-wise fashion. Publish with just one push.
+          </p>
+
+
           <p class="justify double-bottom-gap"> 
             Bookiza is a "book baking" tool that cuts down your writing & publishing time by half. Half, no less. Integrates deeply into your existing development toolchain with different flavors to suit your taste - Markdown, Jade, SASS or Typescript. Write away! 
           </p>
