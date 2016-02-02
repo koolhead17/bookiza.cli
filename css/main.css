@@ -90,8 +90,8 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
-  margin: 2em 0;
+  border-top: 1px solid #ddd;
+  margin: 1em 0;
   padding: 0;
 }
 
@@ -198,7 +198,7 @@ header .navPic {
   margin:-240px auto;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
   background-color:#0ac;
-  /*animation: rgb 120s infinite alternate; */
+  animation: rgb 120s infinite alternate; 
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   transform: scale(0);  
@@ -354,7 +354,7 @@ h1.pitch {
 }
 
 .wrapper{
-  min-height:40vh;
+  min-height:auto;
   padding:3em 0;
 }
 
