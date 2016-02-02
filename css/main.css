@@ -31,7 +31,7 @@ body {
   margin: 0;
   font-family: "Crimson Text", serif;
   font-smooth: always;
--webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
   text-rendering: auto;
 }
@@ -171,7 +171,7 @@ input:-webkit-autofill {
 header {
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
   background-color: #4900ed;
-  animation: rgb 60s infinite alternate reverse;
+  animation: rgb 60s infinite alternate;
   z-index: 100000;
   position: fixed;
   top: 0;
@@ -198,7 +198,7 @@ header .navPic {
   margin:-240px auto;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
   background-color:#0ac;
-  animation: rgb 120s infinite alternate; 
+  /*animation: rgb 120s infinite alternate; */
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   transform: scale(0);  
@@ -627,10 +627,20 @@ ul.horizontal-list li {
   font-family: monospace;
   background: rgba(100, 100, 100, 0.2);
   color: #ee5;
-  padding: 2px 3px;
+  padding: 3px 2px 3px 12px;
   border-radius: 2px;
   margin: 2px;
 }
+
+.monospace-white {
+  font-family: monospace;
+  background: rgba(100, 100, 100, 0.1);
+  color: #eee;
+  padding: 3px 3px 3px 12px;
+  border-radius: 2px;
+  margin: 2px;
+}
+
 
 .terminal {
   background-color: black;

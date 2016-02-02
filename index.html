@@ -28,21 +28,33 @@
 
         <h1 class="pitch"> bookiza </h1>
         <hr/>
-        <h2 class="punchline"> Responsive, beautiful books. Everywhere. </h2>
-        <p> All the goodness of the web that you've ever wanted. Publish once and it is <a href="https://bubbl.in/support">everywhere</a>!</p>
+        <h2 class="punchline"> Responsive, beautiful books. </h2>
+        <p> 
+          Bookiza is a lightweight <em>book reification framework</em> that cuts down your book writing & publishing time by half. Manage your manuscript like a pro and bake your book with all the goodness of the web that you've ever wanted.
+        </p>
         <div class="pad-vertically">
           <a class="tryIt red montserrat" href="https://bubbl.in/books">See demos</a>
           <a class="tryIt light-gray montserrat" href="https://bookiza.github.io/docs/">Documentation</a>
+
         </div>
-        <!--
-        <p class="justify"> Bookiza is a book writing framework that cuts your writing & publishing time by half. By *HALF*, no less! Manage your manuscript in a smart modular way with fine control on flavors, style or presentation of your story. Produces delightful responsive books that blossom responsively on the web. </p> -->
         <p> <img src="./images/dependencies.png"/></p>
+
+
+        <p>
+           Publish once and your book will be available <a href="https://bubbl.in/support">everywhere</a>!
+        </p>
       </div>
-<!--
+
+
       <div class="gray wrapper white-text center">
 
         <div class="divide-in-half center">
-          
+          <p class="justify"> Requirements:</p>
+          <p class="monospace-white">
+            nodejs (> 5.1.0), gulp, shelljs, git-scm, <a href="https://bubbl.in">bubblin</a> <span class="monospace">api_key</span> and a unixy-style shell or terminal.
+          </p>
+
+
           <p class="justify"> To install:</p>
 
           <div class="terminal">
@@ -59,12 +71,12 @@
           </div>
           <p class="justify"> It will ask for your <a href="https://bubbl.in">bubblin credentials</a> and connect bookiza to its sweet POST API. You're all set … &#128519;</p>
           <hr/>
-          <p class="justify"> To start a new book <span class="monospace"> My-Awesome-Book-Name </span>, with say 24 pages:</p>
+          <p class="justify"> To start a new book <span class="monospace-white"> My-Awesome-Book-Name </span>:</p>
           <div class="terminal">
             <p>$ bookiza new My-Awesome-Book-Name -l 12</p>
           </div>
-          <p class="justify"> It will create a new project with 12 fresh leafs (24 pages) inside <span class="monospace">manuscript</span> folder.</p>
-          <p class="justify"> <span class="monospace">cd</span> into <span class="monospace"> My-Awesome-Book-Name </span>, and:</p>
+          <p class="justify"> Creates a new project with 12 fresh leafs (24 pages) inside <span class="monospace">manuscript/</span> folder.</p>
+          <p class="justify"> <span class="monospace">cd</span> into <span class="monospace-white"> My-Awesome-Book-Name </span>, and:</p>
           <div class="terminal">
             <p>$ bookiza server</p>
           </div>
@@ -84,139 +96,24 @@
 
         </div>
       </div>
-
-
-
-
+<!--
       <div class="wrapper center ">
         <div class="divide-in-half center">
-          <h1> ☀ Sunshine </h1>
-          <div class=" center">
-            <ul class="justify">
-              <li class="large">
-                "The future of books", Paul Singh - 500 Startups.
-              </li>
-
-              <li class="large">
-                "the most beautiful implementations of a book in browser I've ever seen" - Craig Mod.
-              </li>
-              <li class="large">
-                "Gorgeous! You should probably sell these!" - David Mack, YCombinator
-              </li>
-              <li class="large">
-                "A beautiful 'storybook' reading experience." - Tiffany Rayside, Codepen
-              </li>
-              <li class="large">
-                "Woah! Beautiful!" - Una Kravets, IBMDesign & IBMBlueMix
-              </li>
-
-
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="gray wrapper white-text center flex">
-        <div class="divide-in-half center">
-          <h1 class="great-vibes"> Wait what? </h1>
-          <p class="justify double-bottom-gap"> 
-            Bookiza is a book baking tool that will cut down your book writing time by half. Half, no less. Integrate deeply into your existing development toolchain, mixin flavors to suit your writing style - Markdown, Jade, SASS or Typescript -, manage your manuscript easily in modular page-wise fashion. Publish with just one push.
+          <h1 class="great-vibes"> Features </h1>
+          <p class="justify">
+            Bookiza is a "book reification" framework that cuts down your writing & publishing time by half. By <em>half</em>, no less! 
           </p>
-
-
-          <p class="justify double-bottom-gap"> 
-            Bookiza is a "book baking" tool that cuts down your writing & publishing time by half. Half, no less. Integrates deeply into your existing development toolchain with different flavors to suit your taste - Markdown, Jade, SASS or Typescript. Write away! 
+          <p class="justify">
+            Manage your manuscript efficiently, take full control of style and presentation of your book. Collaborate and integrate with your existing development toolchain. Choose from hundreds of FREE professional book, comics or magazine templates and produce delightful responsive books that work just about anywhere. 
           </p>
-        </div>
-        <div class="shrink center">
-          <div class="flex double-top-gap"> 
-            <span class="one-third center card pad"> 
-
-              <div class="symbol-plate flex two">
-                <div class="symbol">
-                  <img src="./images/wallet.svg" />
-                </div>
-              </div>
-              <h5> King of tools</h5>
-              <p> Bookiza isn't a word processor with just a few dumb features that no one likes. </p>
-            
-            </span>
-            <span class="one-third center card pad"> 
-              <div class="symbol-plate flex three">
-                <div class="symbol">
-                    <img src="./images/pig.svg" />
-                </div>
-              </div>
-              <h5> Responsive by default</h5>
-              <p> Use our super responsive container to create any kind of book you like. </p>
-            </span>
-
-            <span class="one-third center card pad"> 
-              <div class="symbol-plate flex one bottom-gap">
-                <div class="symbol">
-                  <img src="./images/tie.svg" />
-                </div>
-              </div>
-              <h5> Ready for business.</h5>
-              <p> Comes preintegrated with Stripe & default hooks for deployment to Bubblin or on your own website. </p>
-            </span>
-          </div>
-        </div>
-
-        <div class="divide-in-half center">
-          <hr/>
-          <p class="justify"> 
-            Create beautiful responsive books that are web compatible by default. Bring to life content with full-bleed visuals, interactive explanations, @font-faces, CDN resources, immersive 3D (WebGL), audio, video, animations and what not by simply using building blocks of web — i.e. HTML, CSS, JavaScript and pretty much anything that travels over the wire." 
-          </p>
-        </div>
-      </div>
+          <p class="justify">
+            Preconfigured in multiple flavors — haml, markdown, jade, sass, less and others. &#128150;
+          </p> 
 
 
-      <div class="wrapper center ">
-        <div class="divide-in-half center">
-          <h1> ☀ Some thoughts ... </h1>
         </div>
       </div>      
-
-
-      <div class="gray wrapper white-text center">
-        <div class="divide-in-half center">
-          <h2>Advantages</h2>
-        </div>
-      </div>
-
-      <div class="wrapper center ">
-        <div class="divide-in-half center">
-          <h1> ☀ Some thoughts ... </h1>
-        </div>
-      </div>
-
-      <div class="gray wrapper white-text center">
-        <div class="divide-in-half center">
-          <h2>Zero calories</h2>
-          <p> Bookiza has only minimum set of features to boast. Less code, lesser footprint. It's just a simple wrapper to put together a bunch of pages (webpages, yes) for a linear read form.</p>
-          <div class="one-half center">
-            <ol class="justify">
-              <li> Supported universally. Host on <a href="https://bubbl.in">Bubblin</a> or on your own. </li>
-              <li> Supported universally </li>
-              <li> Supported universally </li>
-              <li> Supported universally </li>
-              <li> Supported universally </li>
-              <li> Supported universally </li>
-              <li> Supported universally </li>
-              <li> Supported universally </li>
-              <li> Supported universally </li>
-              <li> Supported universally </li>
-
-            </ol>
-          </div>
-          <div class="clearfix"> </div>
-          <p>
-             Full-bleed context, interactive visual explanations, great typography with @font-faces, immersive 3D (WebGL), audio, video, animations and what not simply by using building blocks of web — i.e. HTML, CSS, JavaScript and pretty much anything that travels over the wire."        
-          </p>
-        </div>
-      </div>
-      -->
+-->
     </main>
     <footer class="legend center jagged-wrap-inner"> 
       <div class="lightgray-bg jagged-border"></div>
@@ -235,7 +132,7 @@
           <a href="https://bubbl.in/tools" class="flex"> <img class="side-gap" src="https://bubbl.in/favicon.png"/> Bubblin </a>
         </li>
       </ul>
-      <p>© +2015 All rights reserved. Bubblin Superbooks Inc., USA.</p>      
+      <p>© +2015-16 All rights reserved. Bubblin Superbooks Inc., USA.</p>      
     </footer>
 
     <script type="text/javascript" src="./javascripts/script.js"></script>
