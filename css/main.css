@@ -42,6 +42,7 @@ a {
   text-decoration: none;
   text-rendering: optimizelegibility;
   outline: 0;
+  display: inline-block;
 }
 
 a:focus, a:active, a:hover {
@@ -185,6 +186,10 @@ header {
   transition: .2s;
 }
 
+header .logo {
+  position:relative;
+}
+
 header .headerPic {
   -webkit-transition: .2s;
   -moz-transition: .2s;
@@ -193,7 +198,7 @@ header .headerPic {
 
 header .navPic {
   position:relative;
-  display:block;
+  display:none;
   text-align:center;
   margin:-240px auto;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
@@ -261,7 +266,6 @@ header .navPic {
     background-color: #a8ee02;
   }
 }
-
 
 /* Github ribbon */
 .ribbon-wrap {
