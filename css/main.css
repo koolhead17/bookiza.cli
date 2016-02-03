@@ -186,10 +186,6 @@ header {
   transition: .2s;
 }
 
-header .logo {
-  position:relative;
-}
-
 header .headerPic {
   -webkit-transition: .2s;
   -moz-transition: .2s;
@@ -200,14 +196,15 @@ header .navPic {
   position:relative;
   display:none;
   text-align:center;
-  margin:-240px auto;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
   background-color:#0ac;
   /*animation: rgb 120s infinite alternate; */
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   transform: scale(0);  
-
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  transition: 2s;
 }
 
 .nav {
@@ -218,17 +215,20 @@ header .navPic {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   transform: scale(0);
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
 .nav .navPic {
-  display: block;
+  display: inline-block;
   height:81px;
   border-radius: 50%;
   width:81px;
   border: #F1F1E4 solid 3px;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   transform: scale(1);  
