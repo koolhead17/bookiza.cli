@@ -701,7 +701,7 @@ ul.horizontal-list li {
 /* --- Feature cards ----*/
 
 .card {
-  height:300px;
+  height:400px;
 }
 
 .symbol-plate {
@@ -709,36 +709,56 @@ ul.horizontal-list li {
   -webkit-transition: .2s;
   -moz-transition: .2s;
   transition: .2s;
-  width: 120px; height: 120px;
+  width: 60px; height: 60px;
   margin: 0px auto 20px;
   border-radius: 50%;
 }
 
 .symbol {
-  width: 118px; height: 118px;
+  width: 59px; height: 59px;
   border-radius: 50%;
-  font-size:80px;
-  color:black;
-  background:#fff; 
+  font-size:25px;
+  color: white;
+  background:rgba(255, 255, 255, 0.1);
 }
 
 .one {
-  background-color: #4900ed;
-  animation: rgb 30s infinite alternate;
-  animation-delay: 0s;
+  background-color: rgba(0, 155, 255, 0.9);
+/*  animation: rgb 60s infinite alternate;
+  animation-delay: 0s; */
 }
 
 .two {
-  background-color: #ed4900;
-  animation: rgb 30s infinite alternate;
-  animation-delay: 10s;
+  background-color: rgba(0, 155, 0, 0.9);
+/*  animation: rgb 60s infinite alternate;
+  animation-delay: 5s; */
 }
 
 .three {
-  background-color: #0049ed;
-  animation: rgb 30s infinite alternate;
-  animation-delay: 20s;
+  background-color: rgba(255, 0, 0, 0.9);  
+  
+/*  animation: rgb 60s infinite alternate;
+  animation-delay: 10s; */
 }
+
+.four {
+  background-color: rgba(255, 50, 155, 0.9);
+/*  animation: rgb 120s infinite alternate;
+  animation-delay: 3s; */
+}
+
+.five {
+  background-color: rgba(255, 155, 0, 0.9);
+/*  animation: rgb 120s infinite alternate;
+  animation-delay: 8s; */
+}
+
+.six {
+  background-color: rgba(0, 100, 255, 0.9);
+/*  animation: rgb 120s infinite alternate;
+  animation-delay: 13s; */
+}
+
 
 /* -- Footer -- */
 
