@@ -1,116 +1,101 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Bookiza - The Book Baking Tool | API Reference</title>
-    <meta name="description" content="Bookiza a book reification framework based on nodejs and shell. Bake your books with the best of web!">
-    <link rel="icon" href="./images/favicon.png">
-    <link href="./css/main.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  </head>
-  <body>
 
-    <header>
-      <a href="http://bookiza.io">
-        <img src="./images/bookiza.png" alt="bookiza logo" class="headerPic"/>
-        <img src="./images/logo.png" alt="bookiza small logo" class="navPic" />
-      </a>
-    </header>
-    <div class="right trap ribbon-wrap">
-      <div class="trap-ribbon">
-        <a href="https://github.com/bookiza/bookiza"><i class="fa fa-github-alt"> </i> Star on Github</a>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Bookiza - The Book Baking Tool | API Reference</title>
+  <meta name="description" content="Bookiza a book reification framework based on nodejs and shell. Bake your books with the best of web!">
+  <link rel="icon" href="./images/favicon.png">
+  <link href="./css/main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <a href="http://bookiza.io">
+      <img src="./images/bookiza.png" alt="bookiza logo" class="headerPic" />
+      <img src="./images/logo.png" alt="bookiza small logo" class="navPic" />
+    </a>
+  </header>
+  <div class="right trap ribbon-wrap">
+    <div class="trap-ribbon">
+      <a href="https://github.com/bookiza/bookiza"><i class="fa fa-github-alt"> </i> Star on Github</a>
+    </div>
+  </div>
+  <main class="container">
+    <div class="wrapper center divide-in-half">
+      <h1 class="pitch"> bookiza </h1>
+      <hr/>
+      <h2 class="punchline"> Responsive, beautiful books. </h2>
+      <p>
+        Bookiza is a lightweight <em>book reification framework</em> that will cut down your book writing & publishing time by half. Manage your manuscript like a champion 🏆 Publish once and your book is available <a href="https://bubbl.in/support">everywhere</a>!
+      </p>
+      <div class="pad-vertically">
+        <a class="tryIt red montserrat" href="https://bubbl.in/books">See demos</a>
+        <a class="tryIt light-gray montserrat" href="https://bookiza.github.io/docs/">Documentation</a>
+      </div>
+      <p> <img src="./images/dependencies.png" /></p>
+      <div class="shrink center">
+        <p>
+          Bake your book with all the goodness of the web that you've ever wanted.
+        </p>
+        <p class="super-small"> <a href="https://www.npmjs.com/package/bookiza">VERSION: 0.0.9</a> </p>
       </div>
     </div>
-    
-
-    <main class="container">
-      <div class="wrapper center divide-in-half">
-
-        <h1 class="pitch"> bookiza </h1>
-        <hr/>
-        <h2 class="punchline"> Responsive, beautiful books. </h2>
-        <p> 
-          Bookiza is a lightweight <em>book reification framework</em> that will cut down your book writing & publishing time by half. Manage your manuscript like a champion 🏆 Publish once and your book is available <a href="https://bubbl.in/support">everywhere</a>!
+    <div class="gray wrapper white-text center">
+      <div class="divide-in-half center">
+        <p class="justify"> Prerequisites:</p>
+        <p class="justify standard">
+          node, gulp, shelljs, git-scm and a unixy-style shell or the terminal app.
         </p>
-        <div class="pad-vertically">
-          <a class="tryIt red montserrat" href="https://bubbl.in/books">See demos</a>
-          <a class="tryIt light-gray montserrat" href="https://bookiza.github.io/docs/">Documentation</a>
-
+        <p class="justify"> To install:</p>
+        <div class="terminal">
+          <p>$ npm install bookiza -g</p>
         </div>
-        <p> <img src="./images/dependencies.png"/></p>
-
-        <div class="shrink center">
-          <p>Bake your book with all the goodness of the web that you've ever wanted.
-           
-          </p>
-          
-
-          <p class="super-small"> <a href="https://www.npmjs.com/package/bookiza">VERSION: 0.0.9</a> </p>
+        <p class="justify"> Check installation with:</p>
+        <div class="terminal">
+          <p>$ bookiza --version</p>
         </div>
-      </div>
-
-
-      <div class="gray wrapper white-text center">
-
-        <div class="divide-in-half center">
-          <p class="justify"> Prerequisites:</p>
-          <p class="justify standard"> 
-            node, gulp, shelljs, git-scm and a unixy-style shell or the terminal app. 
-          </p>
-
-
-          <p class="justify"> To install:</p>
-
-          <div class="terminal">
-            <p>$ npm install bookiza -g</p>
-          </div>
-          <p class="justify"> Check installation with:</p>
-          <div class="terminal">
-            <p>$ bookiza --version</p>
-          </div>
-
-          <p class="justify"> Register client with:</p>
-          <div class="terminal">
-            <p>$ bookiza register</p>
-          </div>
-          <p class="justify"> It will ask for your <a href="https://bubbl.in">bubblin credentials</a> and connect bookiza to its sweet POST API. You're all set … &#128519;</p>
-          <hr/>
-          <p class="justify"> To start a new book <span class="monospace-white"> My-Awesome-Book-Name </span>:</p>
-          <div class="terminal">
-            <p>$ bookiza new My-Awesome-Book-Name -l 12</p>
-          </div>
-          <p class="justify"> Creates a new project with 12 fresh leafs (24 pages) inside <span class="monospace">manuscript/</span> folder.</p>
-          <p class="justify"> <span class="monospace">cd</span> into <span class="monospace-white"> My-Awesome-Book-Name </span>, and:</p>
-          <div class="terminal">
-            <p>$ bookiza server</p>
-          </div>
-          <p class="justify"> It will &#128293; up your manuscript at <span class="monospace"> http://localhost:4567 </span> and watch for changes! </p>
-          <hr/>
-          <p class="justify"> Open project on your favorite editor (Sublime / Atom), write away! </p> 
-          <p class="justify"> Once the book is ready, hit: </p>
-          <div class="terminal">
-            <p>$ bookiza publish</p>
-          </div>
-
-          <p class="justify"> Boom!, your book is live online. </p>
-          <p class="justify">  Help is available with: </p>
-          <div class="terminal">
-            <p>$ bookiza --help</p>
-          </div>
-          <p class="justify"> 
-            Full documentation is available at 
-            <a href="https://bookiza.github.io/docs/">
+        <p class="justify"> Register client with:</p>
+        <div class="terminal">
+          <p>$ bookiza register</p>
+        </div>
+        <p class="justify"> It will ask for your <a href="https://bubbl.in">bubblin credentials</a> and connect bookiza to its sweet POST API. You're all set … &#128519;</p>
+        <hr/>
+        <p class="justify"> To start a new book <span class="monospace-white"> My-Awesome-Book-Name </span>:</p>
+        <div class="terminal">
+          <p>$ bookiza new My-Awesome-Book-Name -l 12</p>
+        </div>
+        <p class="justify"> Creates a new project with 12 fresh leafs (24 pages) inside <span class="monospace">manuscript/</span> folder.</p>
+        <p class="justify"> <span class="monospace">cd</span> into <span class="monospace-white"> My-Awesome-Book-Name </span>, and:</p>
+        <div class="terminal">
+          <p>$ bookiza server</p>
+        </div>
+        <p class="justify"> It will &#128293; up your manuscript at <span class="monospace"> http://localhost:4567 </span> and watch for changes! </p>
+        <hr/>
+        <p class="justify"> Open project on your favorite editor (Sublime / Atom), write away! </p>
+        <p class="justify"> Once the book is ready, hit: </p>
+        <div class="terminal">
+          <p>$ bookiza publish</p>
+        </div>
+        <p class="justify"> Boom!, your book is live online. </p>
+        <p class="justify"> Help is available with: </p>
+        <div class="terminal">
+          <p>$ bookiza --help</p>
+        </div>
+        <p class="justify">
+          Full documentation is available at
+          <a href="https://bookiza.github.io/docs/">
               https://bookiza.github.io/docs/ 
             </a>
-          </p>
-        </div>
+        </p>
       </div>
-
-      <div class="shrink center flex">
-        <div class="flex double-top-gap divide-in-half"> 
-            <span class="one-half center card pad"> 
+    </div>
+    <div class="shrink center flex">
+      <div class="flex double-top-gap divide-in-half">
+        <span class="one-half center card pad"> 
               <div class="symbol-plate flex one">
                 <div class="symbol flex">
                   <i class="fa fa-fire"></i>
@@ -122,7 +107,7 @@
               <p> See the <a href="https://bubbl.in/devices">full list</a> of supported devices.</p>
             
             </span>
-            <span class="one-half center card pad"> 
+        <span class="one-half center card pad"> 
               <div class="symbol-plate flex two">
                 <div class="symbol flex">
                   <i class="fa fa-hand-peace-o"></i>
@@ -130,9 +115,9 @@
               </div>
               <h5> Powerful </h5>
               <p class="justify"> A very powerful <em>book reification</em> framework. <span class="code">$ bookiza new MY-BOOK --leafs 40</span> and boom, it's ready!</p>
-              <p> Bring great books to life, with joy.</p>
-            </span>
-            <span class="one-half center card pad"> 
+        <p> Bring great books to life, with joy.</p>
+        </span>
+        <span class="one-half center card pad"> 
               <div class="symbol-plate flex three">
                 <div class="symbol flex">
                   <i class="fa fa-git"></i>
@@ -142,7 +127,7 @@
               <p class="justify"> Bookiza uses <a href="https://git-scm.com/"> git-scm </a> to track changes and version up your manuscript. Use simple git commands to manage project.  </p>
               <p> Check-in your manuscript on Github.</p>
             </span>
-            <span class="one-half center card pad"> 
+        <span class="one-half center card pad"> 
               <div class="symbol-plate flex four">
                 <div class="symbol flex">
                   <i class="fa fa-file-text-o"></i>
@@ -155,17 +140,17 @@
               <p> Comics, novels, magazines ... anything.</p>
             
             </span>
-            <span class="one-half center card pad"> 
+        <span class="one-half center card pad"> 
               <div class="symbol-plate flex five">
                 <div class="symbol flex">
                     <i class="fa fa-group"></i>
                 </div>
               </div>
               <h5> Collaboration </h5>
-              <p class="justify"> Co-author your book with anyone, super efficiently! Build a plot, develop a story, test the book rigorously and repeat. Then <span class="code">$ bookiza publish</span> to live.   </p>
-              <p> A single page app, but a book.</p>
-            </span>
-            <span class="one-half center card pad"> 
+              <p class="justify"> Co-author your book with anyone, super efficiently! Build a plot, develop a story, test the book rigorously and repeat. Then <span class="code">$ bookiza publish</span> to live. </p>
+        <p> A single page app, but a book.</p>
+        </span>
+        <span class="one-half center card pad"> 
               <div class="symbol-plate flex six">
                 <div class="symbol flex">
                   <i class="fa fa-cutlery"></i>
@@ -175,50 +160,47 @@
               <p class="justify"> Bookiza comes pre-integrated with <a href="https://bubbl.in">Bubblin</a>'s sweet POST/PATCH api. In different flavors: Markdown, haml, pug, sass, less or stylus to suit your taste! </p>
               <p> Learn more about <a href="https://bookiza.github.io/docs/#preprocessors">preprocessors</a>.</p>
             </span>
-        </div>
-
       </div>
-      <div class="gray wrapper white-text center double-top-gap">
+    </div>
+    <div class="gray wrapper white-text center double-top-gap">
+    </div>
+  </main>
+  <footer class="legend center jagged-wrap-inner">
+    <div class="lightgray-bg jagged-border"></div>
+    <img src="./images/folder.png">
+    <ul class="horizontal-list center flex">
+      <li>
+        <a href="https://twitter.com/bookiza"> <i class="fa fa-twitter"></i> Twitter </a>
+      </li>
+      <li>
+        <a href="https://github.com/bookiza/bookiza"> <i class="fa fa-github"></i> Github </a>
+      </li>
+      <li>
+        <a href="https://bubbl.in/tools" class="flex"> <img class="side-gap" src="https://bubbl.in/favicon.png" /> Bubblin </a>
+      </li>
+    </ul>
+    <p>© +2015-16 All rights reserved. Bubblin Superbooks Inc., USA.</p>
+  </footer>
+  <script type="text/javascript" src="./javascripts/script.js"></script>
+  <noscript class="flex">
+    Oooh... JavaScript is disabled! We're doing all right here but you're gonna need it on books.
+  </noscript>
+  <script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      </div>
+  ga('create', 'UA-73884403-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
 
-
-    </main>
-    <footer class="legend center jagged-wrap-inner"> 
-      <div class="lightgray-bg jagged-border"></div>
-
-      <img src="./images/folder.png">
-
-      <ul class="horizontal-list center flex">
-
-        <li>
-          <a href="https://twitter.com/bookiza"> <i class="fa fa-twitter"></i> Twitter </a>
-        </li>
-        <li>
-          <a href="https://github.com/bookiza/bookiza"> <i class="fa fa-github"></i> Github </a>
-        </li>
-        <li>
-          <a href="https://bubbl.in/tools" class="flex"> <img class="side-gap" src="https://bubbl.in/favicon.png"/> Bubblin </a>
-        </li>
-      </ul>
-      <p>© +2015-16 All rights reserved. Bubblin Superbooks Inc., USA.</p>      
-    </footer>
-
-    <script type="text/javascript" src="./javascripts/script.js"></script>
-
-    <noscript class="flex">
-      Oooh... JavaScript is disabled! We're doing all right here but you're gonna need it on books.
-    </noscript>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-73884403-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-  </body>
 </html>
