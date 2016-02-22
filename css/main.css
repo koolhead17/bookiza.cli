@@ -226,7 +226,6 @@ header .navPic {
   text-align: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
   background-color: #0ac;
-  /*animation: rgb 120s infinite alternate; */
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   transform: scale(0);
@@ -304,10 +303,10 @@ header .navPic {
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  border-color: #a00;
+  border-color: #ffc;
   border-left: 45px solid transparent;
   border-right: 45px solid transparent;
-  border-bottom: 45px solid #a00;
+  border-bottom: 45px solid #ffc;
   box-shadow: 0px 6px 5px -5px rgba(0, 0, 0, 0.5);
   z-index: 999999;
   height: 60px;
@@ -336,7 +335,7 @@ header .navPic {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 700;
-  color: #d8d8d8;
+  color: #777;
   text-decoration: none;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
@@ -350,7 +349,6 @@ header .navPic {
 }
 
 .ribbon-wrap .trap-ribbon a:hover {
-  color: #fff;
   text-shadow: 0 1px rgba(0, 0, 0, 0.85);
 }
 
@@ -615,6 +613,9 @@ ul.horizontal-list li {
   color: white;
 }
 
+.pink {
+  background-color: #fdf;
+}
 
 /* ----- Typography -----*/
 
