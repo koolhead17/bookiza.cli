@@ -971,6 +971,7 @@ blockquote::after {
   content: close-quote;
 }
 
-blockquote p {
+.opinion p {
   font-size: 110%;
+  color:#ffc;
 }
