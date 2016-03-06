@@ -1010,5 +1010,6 @@ td, th {
 }
 
 .fb_iframe_widget {
+  display:block !important;
   margin: -7px 20px 0;
 }
