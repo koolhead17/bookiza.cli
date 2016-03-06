@@ -47,7 +47,7 @@
     <div class="green wrapper center">
       <!-- Place this tag where you want the +1 button to render. -->
       <div class="g-plusone top-gap" data-size="medium"></div>
-      <a href="https://twitter.com/intent/tweet?text=Bookiza%20-%20awesome%20book%20reification%20framework%20in%20node!" class="twitter-share-button" data-url="http://bookiza.io" data-related="bookiza">Tweet</a>
+      <a href="https://twitter.com/intent/tweet?screen_name=bookiza&text=Bookiza%20-%20The%20awesome%20book%20reification%20framework%20in%20node:&button_hashtag=TwitterStories" class="twitter-share-button" data-url="http://bookiza.io" data-related="bookiza">Tweet</a>
       <script>
       ! function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
@@ -60,8 +60,21 @@
         }
       }(document, 'script', 'twitter-wjs');
       </script>
-
-
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <!-- Your share button code -->
+      <div class="fb-share-button" data-href="http://bookiza.io" data-layout="button_count">
+      </div>
     </div>
     <div class="gray wrapper white-text center">
       <div class="divide-in-half center">
