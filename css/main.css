@@ -783,21 +783,21 @@ ul.horizontal-list li {
 }
 
 .symbol-plate {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1)); */
   -webkit-transition: .2s;
   -moz-transition: .2s;
   transition: .2s;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   margin: 0px auto 20px;
   border-radius: 50%;
 }
 
 .symbol {
-  width: 59px;
-  height: 59px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  font-size: 25px;
+  font-size: 40px;
   color: white;
   background: rgba(255, 255, 255, 0.1);
 }
