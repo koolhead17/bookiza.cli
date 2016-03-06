@@ -1004,8 +1004,8 @@ table {
 }
 
 td, th {
-  width: auto;
-  height:16px;
+  width: 93px;
+  height:25px;
   vertical-align: top;
   background:white;
 }
