@@ -1008,3 +1008,7 @@ td, th {
   height:25px;
   vertical-align: top;
 }
+
+.fb_iframe_widget {
+  margin: -7px 20px 0;
+}
