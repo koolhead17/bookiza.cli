@@ -22,6 +22,14 @@ if (isFirefox) {
       header.classList.remove("nav");
     }
   };   
+} else if (isChrome) {
+  window.onscroll = function() {
+    if (window.pageYOffset > 80 && !header.classList.contains("nav")) {
+      header.classList.add("nav");
+    } else if ( window.pageYOffset <= 80) {
+      header.classList.remove("nav");
+    }    
+  };   
 } else {
   window.onscroll = function() {
     if (document.body.scrollTop > 80 && !header.classList.contains("nav")) {
