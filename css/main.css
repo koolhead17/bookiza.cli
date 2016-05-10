@@ -229,9 +229,9 @@ header .navPic {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   transform: scale(0);
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .nav {
