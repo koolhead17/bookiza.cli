@@ -1,0 +1,7 @@
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <title>Bubblin Superbooks</title>
+    <desc> Community of book lovers on the web!</desc>
+    <circle r="8" cx="50%" cy="50%" fill="#000" shape-rendering="optimizeQuality" />
+    <circle r="5" cx="50%" cy="50%" fill="#fa0" shape-rendering="optimizeQuality" />
+    <circle r="3" cx="50%" cy="50%" fill="#000"  shape-rendering="optimizeQuality" />
+</svg>
