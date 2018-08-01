@@ -338,18 +338,20 @@ header .navPic {
   color: #777;
   text-decoration: none;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
+  /*text-transform: uppercase; */
   text-align: center;
-  padding: 6px;
+  padding: 2px;
   line-height: 22px;
   margin: 0 0 0 -45px;
   display: inline-block;
   border-top: 1px dotted rgba(55, 55, 55, 0.7);
   transition: color 500ms ease;
+  color: #444;
+
 }
 
 .ribbon-wrap .trap-ribbon a:hover {
-  text-shadow: 0 1px rgba(0, 0, 0, 0.85);
+    color: #EE0602;
 }
 
 
